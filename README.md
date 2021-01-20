@@ -1,9 +1,9 @@
 # Golang Errors with Stack Trace and Source Fragments
 
-[![GoDoc](https://godoc.org/github.com/ztrue/tracerr?status.svg)](https://godoc.org/github.com/ztrue/tracerr)
-[![Report](https://goreportcard.com/badge/github.com/ztrue/tracerr)](https://goreportcard.com/report/github.com/ztrue/tracerr)
-[![Coverage Status](https://coveralls.io/repos/github/ztrue/tracerr/badge.svg?branch=master)](https://coveralls.io/github/ztrue/tracerr?branch=master)
-[![Build Status](https://travis-ci.com/ztrue/tracerr.svg?branch=master)](https://travis-ci.com/ztrue/tracerr)
+[![GoDoc](https://godoc.org/github.com/hermeznetwork/tracerr?status.svg)](https://godoc.org/github.com/hermeznetwork/tracerr)
+[![Report](https://goreportcard.com/badge/github.com/hermeznetwork/tracerr)](https://goreportcard.com/report/github.com/hermeznetwork/tracerr)
+
+NOTE: This is a fork of github.com/ztrue/tracerr
 
 Tired of uninformative error output? Probably this will be more convenient:
 
@@ -17,7 +17,7 @@ package main
 import (
 	"io/ioutil"
 
-	"github.com/ztrue/tracerr"
+	"github.com/hermeznetwork/tracerr"
 )
 
 func main() {
@@ -44,7 +44,7 @@ Find more executable examples in [examples](examples) dir.
 ### Import
 
 ```go
-import "github.com/ztrue/tracerr"
+import "github.com/hermeznetwork/tracerr"
 ```
 
 ### Create New Error

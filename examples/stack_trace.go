@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/ztrue/tracerr"
+	"github.com/hermeznetwork/tracerr"
 )
 
 func main() {

@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/ztrue/tracerr"
+	"github.com/hermeznetwork/tracerr"
 )
 
 func main() {
